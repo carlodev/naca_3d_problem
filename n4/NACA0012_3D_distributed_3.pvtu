@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VTKFile type="PUnstructuredGrid" version="1.0" byte_order="LittleEndian">
+  <PUnstructuredGrid GhostLevel="0">
+    <Piece Source="NACA0012_3D_distributed_3/NACA0012_3D_distributed_3_1.vtu"/>
+    <Piece Source="NACA0012_3D_distributed_3/NACA0012_3D_distributed_3_2.vtu"/>
+    <Piece Source="NACA0012_3D_distributed_3/NACA0012_3D_distributed_3_3.vtu"/>
+    <Piece Source="NACA0012_3D_distributed_3/NACA0012_3D_distributed_3_4.vtu"/>
+    <PPoints>
+      <PDataArray type="Float64" Name="Points" NumberOfComponents="3"/>
+    </PPoints>
+    <PCellData>
+      <PDataArray type="Int64" Name="airfoil" NumberOfComponents="1"/>
+      <PDataArray type="Int64" Name="inlet" NumberOfComponents="1"/>
+      <PDataArray type="Int64" Name="limits" NumberOfComponents="1"/>
+      <PDataArray type="Int64" Name="outlet" NumberOfComponents="1"/>
+      <PDataArray type="Int64" Name="zm" NumberOfComponents="1"/>
+      <PDataArray type="Int64" Name="zp" NumberOfComponents="1"/>
+      <PDataArray type="Int64" Name="fluid" NumberOfComponents="1"/>
+      <PDataArray type="Int32" Name="entity" NumberOfComponents="1"/>
+      <PDataArray type="Int64" Name="gid" NumberOfComponents="1"/>
+      <PDataArray type="Int32" Name="part" NumberOfComponents="1"/>
+    </PCellData>
+  </PUnstructuredGrid>
+</VTKFile>
